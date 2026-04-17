@@ -26,9 +26,9 @@ fi
 
 {
   printf '## %s\n' "$TIME"
-  printf '- cwd: %s\n' "$CWD"
-  [ -n "$SESSION_ID" ] && printf '- session: %s\n' "$SESSION_ID"
-  [ -n "$TRANSCRIPT_PATH" ] && printf '- transcript: %s\n' "$TRANSCRIPT_PATH"
+  printf '%s\n' "- cwd: $CWD"
+  [ -n "$SESSION_ID" ] && printf '%s\n' "- session: $SESSION_ID"
+  [ -n "$TRANSCRIPT_PATH" ] && printf '%s\n' "- transcript: $TRANSCRIPT_PATH"
   printf '\n'
 } >> "$OUTFILE"
 
