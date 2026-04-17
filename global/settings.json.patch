@@ -1,0 +1,40 @@
+{
+  "permissions": {
+    "deny": [
+      "Bash(rm -rf /*)",
+      "Bash(rm -rf ~)",
+      "Bash(rm -rf ~/*)",
+      "Bash(:(){ :|:& };:)",
+      "Bash(git push --force origin main)",
+      "Bash(git push --force origin master)",
+      "Bash(git push -f origin main)",
+      "Bash(git push -f origin master)"
+    ],
+    "ask": [
+      "Bash(git push *)",
+      "Bash(npm publish*)",
+      "Bash(pnpm publish*)",
+      "Bash(yarn publish*)",
+      "Bash(vercel --prod*)",
+      "Bash(vercel deploy --prod*)",
+      "Bash(supabase db push*)",
+      "Bash(supabase migration*)",
+      "Bash(psql * -c \"DROP*)",
+      "Bash(docker system prune*)",
+      "Bash(gh release create*)"
+    ]
+  },
+  "hooks": {
+    "Stop": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash ~/.claude/scripts/handoff-on-stop.sh"
+          }
+        ]
+      }
+    ]
+  }
+}

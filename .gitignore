@@ -1,0 +1,13 @@
+.DS_Store
+backups/
+logs/
+*.log
+.env
+.env.*
+node_modules/
+.claude/settings.local.json
+
+# CLAUDE.md is the point of this repo — override the global ignore.
+!CLAUDE.md
+!**/CLAUDE.md
+!*.CLAUDE.md

@@ -1,0 +1,18 @@
+{
+  "agents": [
+    { "name": "frontend-architect",            "path": "/Users/mac/.claude/agents/frontend-architect.md" },
+    { "name": "ui-components-expert",          "path": "/Users/mac/.claude/agents/ui-components-expert.md" },
+    { "name": "deployment-integration-expert", "path": "/Users/mac/.claude/agents/deployment-integration-expert.md" },
+    { "name": "backend-architect",             "path": "/Users/mac/.claude/agents/backend-architect.md" },
+    { "name": "python-expert",                 "path": "/Users/mac/.claude/agents/python-expert.md" },
+    { "name": "database-architect",            "path": "/Users/mac/.claude/agents/database-architect.md" },
+    { "name": "golang-pro",                    "path": "/Users/mac/.claude/agents/golang-pro.md" },
+    { "name": "nodejs-backend",                "path": "/Users/mac/.claude/agents/nodejs-backend.md" },
+    { "name": "supabase-expert",               "path": "/Users/mac/.claude/agents/supabase-expert.md" },
+    { "name": "typescript-pro",                "path": "/Users/mac/.claude/agents/typescript-pro.md" }
+  ],
+  "defaults": {
+    "style": "professional-architect",
+    "write_file": "/Users/mac/.claude/work.md"
+  }
+}
