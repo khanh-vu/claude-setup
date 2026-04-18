@@ -9,7 +9,8 @@
     { "name": "golang-pro",                    "path": "/Users/mac/.claude/agents/golang-pro.md" },
     { "name": "nodejs-backend",                "path": "/Users/mac/.claude/agents/nodejs-backend.md" },
     { "name": "supabase-expert",               "path": "/Users/mac/.claude/agents/supabase-expert.md" },
-    { "name": "typescript-pro",                "path": "/Users/mac/.claude/agents/typescript-pro.md" }
+    { "name": "typescript-pro",                "path": "/Users/mac/.claude/agents/typescript-pro.md" },
+    { "name": "llm-registry-expert",           "path": "/Users/mac/.claude/agents/llm-registry-expert.md" }
   ],
   "defaults": {
     "style": "professional-architect",

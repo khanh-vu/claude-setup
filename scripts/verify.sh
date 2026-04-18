@@ -30,6 +30,8 @@ check "golang-pro agent linked"        test -L "$CLAUDE_HOME/agents/golang-pro.m
 check "nodejs-backend agent linked"    test -L "$CLAUDE_HOME/agents/nodejs-backend.md"
 check "supabase-expert agent linked"   test -L "$CLAUDE_HOME/agents/supabase-expert.md"
 check "typescript-pro agent linked"    test -L "$CLAUDE_HOME/agents/typescript-pro.md"
+check "llm-registry-expert linked"     test -L "$CLAUDE_HOME/agents/llm-registry-expert.md"
+check "deployment-integration-expert symlinked (v2)" test -L "$CLAUDE_HOME/agents/deployment-integration-expert.md"
 
 # No duplicate-suffix agent files
 if ls "$CLAUDE_HOME/agents/"*\ 2.md >/dev/null 2>&1; then
